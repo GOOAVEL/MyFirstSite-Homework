@@ -7,7 +7,6 @@
   font-size: 16px;
 }
 
-/* Прижатие подвала */
 .wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -800,4 +799,3 @@ hr {
     text-align: center;
   }
 }
-/*# sourceMappingURL=style.css.map */
