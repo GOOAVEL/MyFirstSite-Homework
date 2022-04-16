@@ -371,6 +371,7 @@ a {
 }
 
 #contact_texttarea {
+  resize: none;
   margin-bottom: 72px;
   height: 144px;
 }
