@@ -1,0 +1,19 @@
+p {
+    width: 500px;
+    margin: 100px auto;
+    color: cadetblue;
+    font-size: 24px;
+    font-family: cursive;
+}
+
+p:before {
+    content: open-quote;
+    color: red;
+    font-size: 30px;
+}
+
+p:after {
+    content: close-quote;
+    color: red;
+    font-size: 30px;
+}

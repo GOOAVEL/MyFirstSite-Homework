@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    text-align: justify;
+}
+
+.container {
+    margin: 0 auto;
+    display: flex;
+    width: 150%;
+    min-height: 700px;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    line-height: 200px;
+    font-size: 32px;
+    flex-wrap: wrap;
+}
+
+.flex-item {
+    height: 200px;
+    width: 150px;
+    border: 1px solid #000;
+    margin-bottom: 10px;
+}
+
+.one {
+    background-color: #ff9;
+}
+
+.two {
+    background-color: #f9f;
+}
+
+.three {
+    background-color: #9ff;
+}
+
+.sticky {
+    position: sticky;
+    top: 10px;
+    left: 0;
+}
+
+.sticky1 {
+    position: sticky;
+    top: 0px;
+    right: 0;
+}

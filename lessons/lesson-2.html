@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta httb-equiv="X-UA-Combatible" content="IE=edge">
+    <meta name="viewbort" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label {
+            border: 1px solid black;
+            color: rgb(84, 58, 155);
+        }
+
+        #l1 {
+            background-color: rgb(207, 255, 130);
+        }
+
+        #l2 {
+            background-color: rgb(130, 255, 234)
+        }
+
+        #l3 {
+            background-color: rgb(253, 201, 123)
+        }
+    </style>
+</head>
+
+<body>
+    <a href="practice.html">Главная</a>
+    <hr>
+    <form action="#">
+        <h3>Регистрация</h3>
+        Ваше имя <input type="text" size="14" placeholder="Иван Иванов"><br>
+        Пароль <input type="password" size="16" placeholder="*********"><br>
+        Почта <input type="email" size="17" placeholder="mail@mail.ru"><br>
+        Дата рождения <input type="date"><br>
+        Религия:
+        <select>
+            <option value="">Христианство</option>
+            <option value="">Будизм</option>
+            <option value="">Ислам</option>
+            <option value="" selected>Агностицизм</option>
+        </select>
+        <hr>
+        <p>Чем занимаетесь?</p>
+        <label for="1" id="l1">Офф. трудоустроен</label>
+        <label for="2" id="l2">Не работаю</label>
+        <label for="3" id="l3">Свой бизнес</label>
+        <p>&laquo;Связь между словом и&nbsp;ячейкой сохранена&raquo;</p>
+        <input type="checkbox" id="1">
+        <input type="checkbox" id="2">
+        <input type="checkbox" id="3">
+        <br>
+        <hr>
+        Ваш пол: <br>
+        М <input type="radio" name="pol" checked>
+        Ж <input type="radio" name="pol"><br>
+        О себе: <br>
+        <textarea cols="20" rows="5" placeholder="..."></textarea><br>
+        <button type="submit">Отправить</button> <!-- Использую кнопку -->
+        <input type="reset"> <!-- Использую input -->
+
+
+    </form>
+    <hr>
+    <b>Unordered List</b>
+    <ul>
+        <li>list
+            <ul>
+                <li>item
+                    <ul>
+                        <li>rule
+                            <ul>
+                                <li>tree</li>
+                            </ul>
+                        </li>
+                        <li>rule</li>
+                        <li>rule</li>
+                    </ul>
+                </li>
+                <li>item</li>
+                <li>item</li>
+                <li>item</li>
+            </ul>
+        </li>
+        <li>list</li>
+        <li>list</li>
+    </ul>
+    <b>Ordered list</b>
+    <ol>
+        <li>list
+            <ol start="10">
+                <!-- Использую "Start" для определения значения начала списка -->
+                <li>fox</li>
+                <li>bear</li>
+                <li>cat</li>
+            </ol>
+        </li>
+        <li>list</li>
+        <li>list</li>
+    </ol>
+</body>
+
+</html>

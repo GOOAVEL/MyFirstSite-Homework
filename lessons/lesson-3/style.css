@@ -1,0 +1,26 @@
+ul li a {
+    color: yellowgreen;
+    /*Контекстный селектор*/
+}
+
+.menu>li {
+    border: 1px solid rgb(85, 73, 250);
+    /*Дочерний селектор*/
+}
+
+.menu+.text {
+    text-transform: uppercase;
+    color: crimson;
+    /*Соседний селектор*/
+}
+
+.text+.text {
+    text-align: center;
+    color: royalblue;
+    /*Также соседний селектор*/
+}
+
+.p {
+    color: darkgreen;
+    font-size: 18px;
+}
